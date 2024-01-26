@@ -1,6 +1,6 @@
 #logo {
     width: 400px;
-    margin: 30px 774px 20px 10px;
+    margin: 40px 774px 0px 20px;
 }
 
 .bold {
@@ -9,7 +9,7 @@
     border: none;
     height: 5px;
     background: black;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 body {
@@ -18,10 +18,120 @@ body {
 
 .img {
     width: 400px;
-    border: solid black 3px;
+    height: 400px;
+    box-sizing: border-box;
+    border: solid black 4px;
 }
 
 .cartimg {
     width: 200px;
-    border: solid black 3px;
+    height:200px;
+    box-sizing: border-box;
+    border: solid black 4px;
+}
+
+.page {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+}
+
+.bunframe {
+    width: 400px;
+    margin: 40px auto 0px auto;
+    padding: 10px;
+}
+
+.bunframe:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.menu {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.bunname {
+    text-decoration: underline;
+    color: black;
+}
+
+.detailframe {
+    width: 400px;
+    margin: 20px auto 0px auto;
+    padding: 10px;
+}
+
+.customizedescription {
+    text-align: left;
+    margin: 10px 105px 10px 105px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.cartbutton {
+    display: flex;
+    align-items: center;
+}
+
+.detailprice {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.add-to-cart {
+    width: 120px;
+    height: 30px;
+    background-color: yellow;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.remove {
+    text-decoration: underline;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+
+.cartfont {
+    font-size: x-large;
+}
+
+.checkout {
+    width: 118px;
+    height: 30px;
+    background-color: yellow;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.halfbold {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 5px;
+    background: black;
+    margin-bottom: 30px;
+    width: 75%;
+}
+
+.cartframe {
+    width: 400px;
+    margin: 20px auto 0px auto;
+    padding: 10px;
 }

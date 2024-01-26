@@ -9,13 +9,13 @@
   
   <body>
     <a href="gallery.html"><img id="logo" src="assets/logo-01.svg" alt="Bun Bun bake shop logo"/></a>
-    <hr>
+    <hr class="bold">
 
     <div>
-      <a href="gallery.html">PRODUCTS</a>
+      <a href="gallery.html" class="button">PRODUCTS</a>
       <br>
       <br>
-      <a href="cart.html">CART</a>
+      <a href="cart.html" class="page button">CART</a>
     </div>
   
     <br>
@@ -24,50 +24,48 @@
 
     <h1>Shopping Cart</h1>
 
-    <div>
+    <div class="cartframe">
         <img src="assets/original-cinnamon-roll.jpg" alt="Original cinnamon roll" class="cartimg"/>
-        <div>
+        <div class="remove">
             Remove
         </div>
         <br>
-        <div>
-            Original Cinnamon roll
-            <br>
-            Glazing: Keep original
-            <br>
-            Pack Size: 1
-            <br>
+        <div class="cartfont">
+            <div>
+                Original Cinnamon roll
+                <br>
+                Glazing: Keep original
+                <br>
+                Pack Size: 1
+            </div>
             <br>
             $2.49
         </div>
     </div>
 
-    <div>
+    <div class="cartframe">
         <img src="assets/double-chocolate-cinnamon-roll.jpg" alt="Double-chocolate cinnamon roll" class="cartimg"/>
-        <div>
+        <div class="remove">
             Remove
         </div>
         <br>
-        <div>
-            Double Chocolate Cinnamon roll
-            <br>
-            Glazing: Sugar milk
-            <br>
-            Pack Size: 6
-            <br>
+        <div class="cartfont">
+            <div>
+                Double Chocolate Cinnamon roll
+                <br>
+                Glazing: Sugar milk
+                <br>
+                Pack Size: 6
+            </div>
             <br>
             $27.45
         </div>
     </div>
-
-    <hr>
-
-    Total: $29.94
-
+    <hr class="halfbold">
     <br>
-    <br>
-
-    Checkout
-
+    <div class="cartfont">
+        Total: $29.94
+    </div>
+    <button type="button" class="checkout">Checkout</button>
   </body>
 </html>
