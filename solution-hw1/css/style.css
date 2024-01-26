@@ -52,12 +52,14 @@ body {
 }
 
 .menu {
+    font-size: x-large;
     display: block;
     width: 100%;
     text-align: left;
 }
 
 .bunname {
+    font-size: x-large;
     text-decoration: underline;
     color: black;
 }
