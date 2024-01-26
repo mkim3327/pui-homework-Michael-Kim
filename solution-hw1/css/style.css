@@ -1,0 +1,27 @@
+#logo {
+    width: 400px;
+    margin: 30px 774px 20px 10px;
+}
+
+.bold {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 5px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+body {
+    text-align: center;
+}
+
+.img {
+    width: 400px;
+    border: solid black 3px;
+}
+
+.cartimg {
+    width: 200px;
+    border: solid black 3px;
+}
