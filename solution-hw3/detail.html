@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/style.css"/>
     <meta charset="UTF-8">
     <title>Product Gallery</title>
+    <script src="js/price.js" defer></script>
   </head>
 
   
@@ -44,21 +45,15 @@
             <div>
                 Glazing:
                 <div>
-                    <select>
-                        <option value="original">Keep original</option>
-                        <option value="option 1">Sugar milk</option>
-                        <option value="option 2">Vanilla milk</option>
-                        <option value="option 3">Double chocolate</option>
+                    <select id="glazing">
+                        
                     </select>
                 </div>
 
                 Pack size:
                 <div>
-                    <select>
-                        <option value="original">1</option>
-                        <option value="option 1">3</option>
-                        <option value="option 2">6</option>
-                        <option value="option 3">12</option>
+                    <select id="packsize">
+
                     </select>
                 </div>
             </div>
@@ -66,7 +61,7 @@
             <br>
             <br>
             <div class="cartbutton">
-                <div class="detailprice">
+                <div class="detailprice" id="finPrice">
                     $2.49
                 </div>
                 <button type="button" class="add-to-cart">Add to Cart</button>
