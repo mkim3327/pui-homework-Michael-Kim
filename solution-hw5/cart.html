@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <script src="js/rollsData.js" defer></script>
+    <script src="js/cart.js" defer></script>
+  </head>
+
+  
+  <body>
+    <div class="header"> 
+        <div class="logo">
+            <a href="gallery.html"><img src="assets/logo-01.svg" alt="Bun Bun bake shop logo"/></a>
+        </div>
+
+        <div class="navbar">
+            <div class="navbuttons">
+                <div class="rightspace">
+                    <a href="gallery.html" class="button">PRODUCTS</a>
+                </div>
+
+                <div class="rightspace">
+                    <a href="cart.html" class="page button">CART</a>
+                    <span class="badge">2</span>
+                </div>
+            </div>
+            
+            <hr class="bold">
+    
+            <h1>Shopping Cart</h1>
+        </div>
+    </div>
+
+    <div class="cartbuns">
+        <template id="buntemplate">
+            <div class="cartframe">
+                <div>
+                    <img src="assets/original-cinnamon-roll.jpg" alt="Original cinnamon roll" class="cartimg"/>
+                    <br>
+                    <br>
+                    <a class="remove">Remove</a>
+                </div>
+                <div class="carttext">
+                        <div class="cartbunname">Original Cinnamon Roll</div>
+                        <br>
+                        <div class="cartbunglazing">Glazing: Keep original</div>
+                        <br>
+                        <div class="cartbunpack">Pack Size: 1</div>
+                </div>
+                <div class="cartprice">
+                    $2.49
+                </div>
+            </div>
+        </template>
+    </div>
+
+<!--
+    <div class="cartframe">
+        <div>
+            <img src="assets/double-chocolate-cinnamon-roll.jpg" alt="Double-chocolate cinnamon roll" class="cartimg"/>
+            <br>
+            <br>
+            <a class="remove">Remove</a>
+        </div>
+        <div class="carttext">
+                <div>Double Chocolate Cinnamon Roll</div>
+                <br>
+                <div>Glazing: Sugar Milk</div>
+                <br>
+                <div>Pack Size: 6</div>
+        </div>
+        <div class="cartprice">
+            $27.45
+        </div>
+    </div>
+-->
+
+    <hr class="halfbold">
+
+    <div class="carttotal">
+        <div class="totaltext">
+            Total
+        </div>
+
+        <div class="totalprice">
+            $ 29.94
+        </div>
+    </div>
+
+    <button type="button" class="checkout">Checkout</button>
+  </body>
+</html>
