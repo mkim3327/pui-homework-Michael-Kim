@@ -113,7 +113,7 @@ cart.add(walnutRoll);
 let raisinRoll = new Roll('Raisin', 'Sugar Milk', 3, rolls['Raisin'].basePrice);
 cart.add(raisinRoll);
 
-let appleRoll = new Roll('Apple', 'Keep original', 1, rolls['Apple'].basePrice);
+let appleRoll = new Roll('Apple', 'Keep original', 3, rolls['Apple'].basePrice);
 cart.add(appleRoll);
 
 let cartSection = document.querySelector('.cartbuns');

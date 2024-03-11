@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8">
+    <title>Product Detail</title>
+    <script src="js/rollsData.js" defer></script>
+    <script src="js/detail.js" defer></script>
+    <script src="js/price.js" defer></script>
+  </head>
+
+  
+  <body>
+    <div class="header"> 
+        <div class="logo">
+            <a href="gallery.html"><img src="assets/logo-01.svg" alt="Bun Bun bake shop logo"/></a>
+        </div>
+
+        <div class="navbar">
+            <div class="navbuttons">
+                <div class="rightspace">
+                    <a href="gallery.html" class="page button">PRODUCTS</a>
+                </div>
+
+                <div class="rightspace">
+                    <a href="cart.html" class="button">CART</a>
+                    <span class="badge">0</span>
+                </div>
+            </div>
+            
+            <hr class="bold">
+    
+            <h1 id="roll-header">Our hand-made cinnamon rolls</h1>
+        </div>
+    </div>
+
+    <div class="detailframe">
+        <div>
+            <img src="assets/original-cinnamon-roll.jpg" id="roll-img" alt="Original cinnamon roll" class="detailimg"/>
+        </div>
+
+        <div class="detaildescription">
+            <div class="customize">
+                Customize our delicious, hand-making cinammons to your liking!
+            </div>
+
+            <div>
+                Glazing:
+                <div>
+                    <select id="glazing">
+                        
+                    </select>
+                </div>
+
+                Pack size:
+                <div>
+                    <select id="packsize">
+
+                    </select>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="cartbutton">
+                <div class="detailprice" id="finPrice">
+                    $2.49
+                </div>
+                <button type="button" class="add-to-cart" id="cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
