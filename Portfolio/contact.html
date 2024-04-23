@@ -5,10 +5,12 @@
         <meta charset="UTF-8">
         <script defer src="https://unpkg.com/swup@4"></script>
         <script defer src="js/transition.js"></script>
+        <script src="js/contact.js"></script>
         <title>Michael Kim Portfolio Contact Me</title>
     </head>
 
     <body id="swup">
+        <!--Top Navigation Bar-->
         <div class="header nav-box">  
             <div class="logo">
                 <a href="home.html"><img src="assets/Michael Kim Logo.png" alt="Michael Kim logo"></a>
@@ -31,12 +33,13 @@
                     <a href="contact.html" class="current button nav-spacing">CONTACT</a>
                 </div>
                 <div>
-                    <a href="assets/Portfolio Minsuk (Michael) Kim Chemistry Resume.pdf" alt="Michael Kim Chemistry Resume Download" download class="button">RESUME</a>
+                    <a href="assets/Portfolio Minsuk (Michael) Kim Chemistry Resume.pdf" alt="Michael Kim Chemistry Resume Download" download class="button nav-spacing">RESUME</a>
                 </div>
             </div>
 
         </div>
 
+        <!--Content of the Page-->
         <div class="contact-content transition-fade">
             <div>
                 <a class="heading">REACH OUT TO ME!</a>
@@ -44,36 +47,57 @@
                 <a class="norm-text">Email me at</a>
                 <a class="norm-text link" href="mailto:minsukki@andrew.cmu.edu"> minsukki@andrew.cmu.edu</a>
                 <br>
-                <a class="norm-text">Call or Text me at +1(919) 717 1242</a>
-                <br>
                 <a class="norm-text">Check out my work at</a>
                 <a class="norm-text link" href="https://github.com/mkim3327" target="_blank"> github.com/mkim3327</a>
             </div>
 
             <br>
-
-            <div>
+            <!--The contact me form-->
+            <form onsubmit="return notification();">
                 <div class="contact-spacing">
-                    <div class="contact-box">
-                        <a class="norm-text">Name *</a>
+                    <input type="text" placeholder="Name" id="name">
+                    <!--<a class="norm-text">Name *</a>-->
+                </div>
+                <div class="contact-spacing">
+                    <input type="text" placeholder="Subject" id="subject">
+                    <!--<a class="norm-text">Subject</a>-->
+                </div>
+                <div class="contact-spacing">
+                    <input type="text" placeholder="Email" id="email">
+                    <!--<a class="norm-text">Email *</a>-->
+                </div>
+                <div class="contact-spacing">
+                    <input type="text" placholder="Message" id="message" class="msg-box">
+                    <!--<a class="norm-text">Message *</a>-->
+                </div>
+                <div class="contact-spacing">
+                    <!--<button class="norm-text" onclick="notification()">SUBMIT</button>-->
+                    <input type="Submit">
+                </div>
+            </form>
+
+            <!-- <div>
+                <div class="contact-spacing">
+                    <div>
+                        <input type="text" placeholder="Name" id="name">
                     </div>
                 </div>
 
                 <div class="contact-spacing">
-                    <div class="contact-box">
-                        <a class="norm-text">Email *</a>
+                    <div>
+                        <input type="text" placeholder="Subject" id="subject">
                     </div>
                 </div>
 
                 <div class="contact-spacing">
-                    <div class="contact-box">
-                        <a class="norm-text">Subject</a>
+                    <div>
+                        <input type="text" placeholder="Email" id="email">
                     </div>
                 </div>
     
                 <div class="contact-spacing">
-                    <div class="msg-box">
-                        <a class="norm-text">Message *</a>
+                    <div>
+                        <input class="msg-box" type="text" placholder="Message" id="message">
                     </div>
                 </div>
 
@@ -81,7 +105,7 @@
 
             <div>
                 <button class="norm-text">SUBMIT</button>
-            </div>
+            </div>-->
 
         </div>
 

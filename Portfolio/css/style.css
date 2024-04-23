@@ -101,30 +101,25 @@ footer{
     text-align: center;
 }
 
-.contact-box{
-    width: 75%;
-    height: 30px;
+input{
+    width:25%;
+    height:30px;
     background-color: #ededed;
-    border: 1px solid black;
-    text-align: center;
-    justify-content: center;
+    border:1px solid black;
     border-radius:10px;
 }
 
 .msg-box{
-    width: 75%;
-    height: 200px;
+    width: 25%;
+    height: 100px;
     background-color: #ededed;
     border: 1px solid black;
-    text-align: center;
-    justify-content: center;
     border-radius:10px;
 }
 
 .contact-spacing{
     padding-top:5px;
     padding-bottom:10px;
-    padding-left:21%;
 }
 
 .short-msg{
@@ -170,17 +165,17 @@ footer{
 
 .link{
     text-decoration:none;
-    color: #02ccfe;
+    color: blue;
 }
 
 .container{
     position:relative;
 }
-
+/*CSS code for the hovering over the about images*/
 .container:hover .hovertext{
     visibility:visible;
 }
-
+/*CSS code for the text that shows up when hovering over the about images*/
 .hovertext{
     font-size: 24px;
     position:absolute;
@@ -197,19 +192,19 @@ footer{
     color: black;
     visibility: hidden;
 }
-
+/*CSS code for the fade transition*/
 .transition-fade{
     opacity:1;
     transition:500ms;
     transform:translateX(0);
     transform-origin: left;
 }
-
+/*CSS code for the transition*/
 html.is-animating .transition-fade{
     opacity:1;
     transform:translateX(100%);
 }
-
+/*CSS code for the transition*/
 html.is-leaving .transition-fade{
     opacity:0;
     transform:translateX(0);
